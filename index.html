@@ -187,7 +187,7 @@
 </head>
 <body>
 <header>
-  Developer: Hridoy Skill
+  Developer:Hridoy Skill
   <span class="toggle-mode" onclick="toggleDarkMode()"> Dark </span>
 </header>
 
@@ -197,7 +197,7 @@
       <h3>Welcome!</h3>
       <p>Please enter your name to continue.</p>
       <input type="text" id="usernameInput" placeholder="Enter your Name" required>
-      <button class="btn" onclick="registerOrLogin()">Enter Dashboard</button>
+      <button class="btn" onclick="registerOrLogin()">Enter Your Name</button>
       <p style="margin-top: 10px; color: #888; text-align: center; font-size: 13px;">If you're new, your account will be created. If you've been here before, you'll be logged in.</p>
     </div>
   </div>
@@ -262,7 +262,7 @@
         <p>Total Ads: <strong id="adsWatchedProfile">0</strong></p>
         <p>Total Tasks: <strong id="tasksCompletedProfile">0</strong></p>
         <p>Total Withdraw: <strong id="withdrawTotal">$0.00</strong></p>
-        <p style="margin-top:10px;color:#888;">Developer: Hridoy Tudu</p>
+        <p style="margin-top:10px;color:#888;">Developer:Hridoy Skill</p>
       </div>
     </div>
   </div> </div>
@@ -448,7 +448,7 @@
       wait--;
       if (wait <= 0) {
         clearInterval(countdown);
-        users[currentUser].balance += 0.005; // Award earnings
+        users[currentUser].balance += 0.000; // Award earnings
         users[currentUser].tasksCompleted++; // Increment task count
         updateStatsDisplay(); // Update UI display
         alert("Task complete! $0.005 has been added to your balance.");
